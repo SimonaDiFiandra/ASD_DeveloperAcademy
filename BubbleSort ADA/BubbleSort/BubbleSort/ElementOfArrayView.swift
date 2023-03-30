@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ElementOfArrayView: View {
     var value: Int
+    var color: Color
     
     var body: some View {
         
@@ -16,7 +17,7 @@ struct ElementOfArrayView: View {
             Rectangle()
                 .frame(width: 30, height: 30)
                 .cornerRadius(10)
-                .foregroundColor(.blue)
+                .foregroundColor(color)
             Text("\(value)")
                 .fontWeight(.bold)
                 .foregroundColor(.white)
@@ -28,6 +29,6 @@ struct ElementOfArrayView: View {
 
 struct ElementOfArrayView_Previews: PreviewProvider {
     static var previews: some View {
-        ElementOfArrayView(value: 10)
+        ElementOfArrayView(value: 10, color: .blue)
     }
 }
