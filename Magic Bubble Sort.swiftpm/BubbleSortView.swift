@@ -1,8 +1,8 @@
 //
 //  BubbleSortView.swift
-//  MagicBubbleSort
+//  BubbleSort
 //
-//  Created by Simona Di Fiandra on 30/03/23.
+//  Created by Simona Di Fiandra on 28/03/23.
 //
 
 import SwiftUI
@@ -64,3 +64,11 @@ struct BubbleSortView: View {
         }
     }
 }
+/*
+struct BubbleSortView_Previews: PreviewProvider {
+    static var previews: some View {
+        let c = ContentViewViewModel()
+        c.theArray = [4,3,2,1]
+        return BubbleSortView(model: c)
+    }
+}*/

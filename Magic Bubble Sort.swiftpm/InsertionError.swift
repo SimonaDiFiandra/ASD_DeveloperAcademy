@@ -1,8 +1,8 @@
 //
 //  InsertionError.swift
-//  MagicBubbleSort
+//  BubbleSort
 //
-//  Created by Simona Di Fiandra on 30/03/23.
+//  Created by Simona Di Fiandra on 29/03/23.
 //
 
 import Foundation
